@@ -313,5 +313,6 @@ if __name__ == '__main__':
     # cv2.imshow("post process result", img_1)
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
-
+    print('Save results to results.jpg!')
+    cv2.imwrite('result.jpg', img_1)
     rknn.release()

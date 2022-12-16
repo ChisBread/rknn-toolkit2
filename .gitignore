@@ -1,0 +1,3 @@
+examples/onnx/yolov5/*.npy
+examples/onnx/yolov5/result.jpg
+examples/onnx/yolov5/yolov5s.rknn
